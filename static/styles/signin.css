@@ -1,0 +1,351 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:teal;
+  }
+  
+  .form-signin {
+    max-width: 340px;
+    padding: 30px;
+    margin: 0 auto;
+    color: black;
+  }
+  .form-signin .form-signin-heading,
+  .form-signin .checkbox {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .form-signin .checkbox {
+    font-weight: normal;
+  }
+  .form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+
+
+
+
+
+  body{
+    place-items: center;
+    text-align:center;
+    background-image: url("https://futurehealthcare.software/wp-content/uploads/2019/02/abstract-1780148-1024x576.png");
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    display: grid;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.topbarContainer{
+    margin: 0;
+    height: 75px;
+    
+    width: 100%;
+    background: linear-gradient(120deg,#1d033b,#635f4e);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    /* border-bottom: 2px solid red;
+    border-color: 2px solid #f0d55d; */
+}
+
+.topbarLeft{
+    flex: 4;
+    
+}
+
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.topbarCenter{
+    flex: 5;
+    
+}
+
+
+
+
+
+
+
+.topbarRight{
+    flex: 3.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarLink{
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.forminput{
+
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    /* align-items: center; */
+    margin-left: 340px;
+    margin-top: 40px;
+    display: inline-flex;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+
+.realform{
+    /* background-color: rgb(80, 47, 47); */
+    width: 70%;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 90px;
+
+}
+
+.container{
+    position: absolute;
+    margin-top: 500px;
+    height: 350px;
+    width: 530px;
+}
+.container .wrapper{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border: 2px dashed #c2cdda;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* background-color: rgb(238, 190, 127); */
+    object-fit: cover;
+}
+
+.wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .image img{
+    
+    height: 320px;
+    width: 320px;
+    object-fit: cover;
+}
+
+.wrapper .icon{
+    font-style: 200px;
+    color: #9658fe;
+}
+.wrapper .text{
+    margin-top: 10px;
+    font-style: 20px;
+    color: #322c3b;
+    font-weight: 500;
+    
+}
+
+.wrapper #cancel-btn{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #9658fe;
+
+}
+.wrapper .file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 18px;
+    /* display: none; */
+    background:linear-gradient(135deg, #3a8ffe 0%,#9658fe 100%);
+    opacity: 60%;
+    
+}
+
+.container #custom-btn{
+    margin-left: 135px;
+    margin-top: 30px;
+    width: 50%;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background:linear-gradient(135deg, #3a8ffe 0%,#9658fe 100%);
+}
+
+.container #process{
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 75%;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(120deg,#1d033b,#635f4e);
+}
+
+
+
+.image{
+    display: flex;
+    
+    margin-top: 20px;
+}
+
+#imgInp{
+    display: flex;
+    
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.mid-container{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 30px;
+    background: linear-gradient(120deg,#c19ceb,#ecd87c);
+    border-radius: 20px;
+}
+
+.process{
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    width: 16%;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: rgb(24, 21, 21);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(120deg,#dad0e6,#f0d55d);
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+  }
+
+
+  .mid-text{
+    font-size: 50px;
+  }
+
+
+  #what{
+      display: inline-block;
+  }
+
+  ul.questions{
+      list-style: none;
+  }
+  li{
+      display: block;
+      padding: 7px;
+  }
+
+  span.demo1{
+      padding: 5px;
+  }
+
+
+
+  .imginfo{
+      display: flex;
+      margin-right: 20px;
+  }
+  .info{
+      margin-left: 20px;
+      display: flex;
+  }
+  
+
+  .loginbutton{
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 66%;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: rgb(250, 239, 239);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(120deg,#7f30e0,#5b5dc5);
+  }
+
+  
