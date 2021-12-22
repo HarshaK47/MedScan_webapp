@@ -119,9 +119,7 @@ class RegisterForm(FlaskForm):
 def index():
     return render_template('index1.html')
 
-@app.route('/postapp', methods=['GET'])
-def postapp():
-    return redirect("http://localhost:3000", code=302)
+
 
 
 @app.route('/login', methods=['GET', 'POST'])
