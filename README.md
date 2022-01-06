@@ -1,5 +1,5 @@
 # MedScan_webapp
-Contains Frontend and Backend files for webapp
+Contains Frontend and Backend files for web application
 
 ## Demonstration:
 
