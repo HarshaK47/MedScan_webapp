@@ -1,7 +1,7 @@
 # MedScan_webapp
 Contains Frontend and Backend files for webapp
 
-## Documentation:
+## Demonstration:
 
 [View/Download MedScan-Project Demo](https://drive.google.com/file/d/1AQBJSGJINZxcA4x69xPduvLkiHtD-G1d/view)
 ## Instructions:
